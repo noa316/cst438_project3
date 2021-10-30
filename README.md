@@ -1,16 +1,16 @@
-# cst438_project3
+# cst438_project3 (Workout Application)
 
 Workout Android Application that will allow users to browse and choose their own workout selections
 
-# Front-End Heroku URL
-(https://workout-planner438.herokuapp.com/)
+# URLs 
 
-# Backend Github Repo URL
-(https://github.com/JoseC07/django-backend-Project3)
-
-# Back-End Heroku URL
-(TBA)
+Front End Heroku - (https://workout-planner438.herokuapp.com/)
+Backend Github Repo - (https://github.com/JoseC07/django-backend-Project3)
+Back-End Heroku URL - (TBA)
 
 # Contributers
 Jose Caudillo (JoseC07) https://github.com/JoseC07
 
+Noah Ahmed
+
+Monica Barrios 
