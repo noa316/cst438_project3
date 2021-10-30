@@ -1,10 +1,9 @@
 # cst438_project3 (Workout Planner)
 #### Postgres->Django->Android
-Workout Android Application that will allow users to browse and choose their own workout selections
 
+# Description 
+The Workout Planner is an application that allows users to save workoutsfor future reference. It can be difficult remembering specific workouts on the spot if a routine hasn't been planned out. This application allows users to create their own workouts and share them with other users. Being able to save workouts lets user track their consistency along with keeping organized. 
 # URLs 
-[Mockup](https://docs.google.com/document/d/1mgUuKUKVFWEY5oHsw0eK3oAvfu7NF5p_s-qrSG0CmYs/edit?usp=sharing)
-
 [Front End Heroku](https://workout-planner438.herokuapp.com/)
 
 [Backend Github Repo](https://github.com/JoseC07/django-backend-Project3)
