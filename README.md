@@ -3,6 +3,8 @@
 Workout Android Application that will allow users to browse and choose their own workout selections
 
 # URLs 
+[Mockup](https://docs.google.com/document/d/1mgUuKUKVFWEY5oHsw0eK3oAvfu7NF5p_s-qrSG0CmYs/edit?usp=sharing)
+
 [Front End Heroku](https://workout-planner438.herokuapp.com/)
 
 [Backend Github Repo](https://github.com/JoseC07/django-backend-Project3)
