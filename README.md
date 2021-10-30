@@ -2,16 +2,16 @@
 
 Workout Android Application that will allow users to browse and choose their own workout selections
 
-# Contributers
-Jose Caudillo (JoseC07) https://github.com/JoseC07
-
-Noah Ahmed
-
-Monica Barrios 
-
 # URLs 
 Front End Heroku - (https://workout-planner438.herokuapp.com/)
 
 Backend Github Repo - (https://github.com/JoseC07/django-backend-Project3)
 
 Back-End Heroku URL - (TBA)
+
+# Contributers
+Jose Caudillo (JoseC07) https://github.com/JoseC07
+
+Noah Ahmed
+
+Monica Barrios 
