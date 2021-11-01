@@ -8,7 +8,7 @@ The Workout Planner is an application that allows users to save workoutsfor futu
 
 [Backend Github Repo](https://github.com/JoseC07/django-backend-Project3)
 
-[Back-End Heroku](TBA)
+[Back-End Heroku](https://exerciserestfulapi.herokuapp.com/)
 
 ## API EndPoints
 - GET - Get one/all users, get one/all workouts, logout user
@@ -17,9 +17,9 @@ The Workout Planner is an application that allows users to save workoutsfor futu
 - DELETE - Delete account, Delete workout
 
 ### Contributers
-- Jose Caudillo [JoseC07]https://github.com/JoseC07
-- Noah Ahmed [noa316]https://github.com/noa316
-- Monica Barrios [MoniBarrios]https://github.com/monibarrios
+- Jose Caudillo [JoseC07](https://github.com/JoseC07)
+- Noah Ahmed [noa316](https://github.com/noa316)
+- Monica Barrios [MoniBarrios](https://github.com/monibarrios)
 
 # Mockup Images
 ![LogIn@1x](https://user-images.githubusercontent.com/49417323/139523079-3ad0846d-d278-491e-a0aa-2d09d9ced884.png)
