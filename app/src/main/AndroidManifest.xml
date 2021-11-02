@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WorkoutPlanner">
         <activity
+            android:name=".AdminViewWorkouts"
+            android:exported="true" />
+        <activity
+            android:name=".AdminViewUsers"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLandingPage"
+            android:exported="true" />
+        <activity
+            android:name=".SavedWorkouts"
+            android:exported="true" />
+        <activity
+            android:name=".SearchWorkouts"
+            android:exported="true" />
+        <activity
+            android:name=".ViewProfile"
+            android:exported="true" />
+        <activity
+            android:name=".LandingPage"
+            android:exported="true" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="true" />
+        <activity
+            android:name=".LogIn"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
