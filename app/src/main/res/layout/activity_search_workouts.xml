@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".SearchWorkouts">
 
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Workouts"
+        android:iconifiedByDefault="false"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/searchView">
+    </SearchView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/searchList">
+    </ListView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
