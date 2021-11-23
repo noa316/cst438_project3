@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_add_workout.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_admin_landing_page.xml" value="0.14114583333333333" />
-        <entry key="app/src/main/res/layout/activity_admin_view_users.xml" value="0.14114583333333333" />
-        <entry key="app/src/main/res/layout/activity_admin_view_workouts.xml" value="0.14114583333333333" />
-        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.165" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_admin_landing_page.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_admin_view_users.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_admin_view_workouts.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_create_account.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_landing_page.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_log_in.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_saved_workouts.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_search_workouts.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/monib/Desktop/School/438/cst438_project3/app/src/main/res/layout/activity_view_profile.xml" value="0.23550724637681159" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_saved_workouts.xml" value="0.41875" />
-        <entry key="app/src/main/res/layout/activity_search_workouts.xml" value="0.41875" />
-        <entry key="app/src/main/res/layout/activity_view_profile.xml" value="0.41875" />
       </map>
     </option>
   </component>
