@@ -1,6 +1,8 @@
 package com.example.workoutplanner;
 
 import androidx.appcompat.app.AppCompatActivity;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -21,6 +23,14 @@ public class SearchWorkouts extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_workouts);
+
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        WorkoutsApi jsonPlaceHolderApi = retrofit.create(WorkoutsApi.class);
+
+//        Call<ApiResponse> call = WorkoutsApi.getWorkouts();
 
         mySearchView = (SearchView)findViewById(R.id.searchView);
         searchList = (ListView)findViewById(R.id.searchList);
