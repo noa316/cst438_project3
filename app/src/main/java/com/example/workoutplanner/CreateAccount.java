@@ -23,7 +23,7 @@ public class CreateAccount extends AppCompatActivity {
         setContentView(R.layout.activity_create_account);
 
 
-        usernameEt = findViewById(R.id.createAccUsernameET);
+        usernameEt = findViewById(R.id.logInUsernameET);
         passwordEt = findViewById(R.id.createAccPasswordET);
         confPasswordEt =findViewById(R.id.createAccVerifyPasswordET);
         createAccBtn = findViewById(R.id.createAccountBtm);
