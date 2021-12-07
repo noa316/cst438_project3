@@ -21,29 +21,29 @@ public class LogIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_log_in);
 
-        mUsername = findViewById(R.id.createAccUsernameET);
+        mUsername = findViewById(R.id.logInUsernameET);
         mPassword= findViewById(R.id.createAccPasswordET);
         mLogInBtn = findViewById(R.id.createAccountBtm);
-
-        mLogInBtn.setOnClickListener(view -> {
-            String username = mUsername.getText().toString();
-            String password = mPassword.getText().toString();
 //
+//        mLogInBtn.setOnClickListener(view -> {
+//            String username = mUsername.getText().toString();
+//            String password = mPassword.getText().toString();
+////
 //            User user = verifyLogin(username,password);
-
-            String user = "New User";
-
-            if(user == null ){
-                Toast toast = Toast.makeText(this, "Try Again",Toast.LENGTH_LONG);
-                toast.show();
-            }
-            else{
-                    startActivity(LandingPage.intentFactory((getApplicationContext())));
-                }
-
-        });
+//
+//            String user = "New User";
+//
+//            if(user == null ){
+//                Toast toast = Toast.makeText(this, "Try Again",Toast.LENGTH_LONG);
+//                toast.show();
+//            }
+//            else{
+//                    startActivity(LandingPage.intentFactory((getApplicationContext())));
+//                }
+//
+//        });
 
         mCreateAccBtn = findViewById(R.id.mCreateAccount);
 
