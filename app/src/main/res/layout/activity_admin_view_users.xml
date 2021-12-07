@@ -5,5 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdminViewUsers">
+    <LinearLayout
+        android:id="@+id/linearLayout_viewUsers"
+        android:layout_width="389dp"
+        android:layout_height="690dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context=".HomePage"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <ListView
+            android:id="@+id/listview_viewUsers"
+            android:layout_width="match_parent"
+            android:layout_height="545dp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
