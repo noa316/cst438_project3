@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".AddWorkout">
 
 
@@ -92,6 +93,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:text="Button"
+            android:background="@drawable/blue_button"
+            android:textColor="#1b4b5f"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
