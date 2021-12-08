@@ -4,6 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".AdminLandingPage">
 
+    <Button
+        android:id="@+id/ViewUsersBtn"
+        android:layout_width="126dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/blue_button"
+        android:text="View Users"
+        android:textColor="#1b4b5f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ViewWorkoutsBtn"
+        android:layout_width="126dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/blue_button"
+        android:text="View Workouts "
+        android:textColor="#1b4b5f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewUsersBtn" />
+
+    <Button
+        android:id="@+id/adminLogoutBtn"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/blue_button"
+        android:text="Log Out"
+        android:textColor="#1b4b5f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewWorkoutsBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

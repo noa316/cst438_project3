@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_bg"
-    tools:context=".AdminViewWorkouts">
+    tools:context=".SelectWorkouts">
     <LinearLayout
-        android:id="@+id/linearLayout_viewWorkouts"
+        android:id="@+id/linearLayout_selectworkouts"
         android:layout_width="389dp"
         android:layout_height="690dp"
         android:orientation="vertical"
@@ -18,7 +18,7 @@
         tools:ignore="MissingConstraints">
 
         <ListView
-            android:id="@+id/listview_viewWorkouts"
+            android:id="@+id/listview_selectworkouts"
             android:layout_width="match_parent"
             android:layout_height="545dp" />
     </LinearLayout>

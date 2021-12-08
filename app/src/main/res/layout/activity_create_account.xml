@@ -4,85 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".CreateAccount">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LogIn">
+        tools:context=".LogIn"
+        tools:layout_editor_absoluteX="-159dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/logInUsernameET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="240dp"
             android:ems="10"
+            android:hint="UserName"
+            android:textColor="#1b4b5f"
             android:inputType="textPersonName"
-            android:text="Name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/createAccPasswordET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:ems="10"
+            android:hint="Password"
+            android:textColor="#1b4b5f"
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/logInUsernameET" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/createAccountBtm"
+            android:layout_width="146dp"
+            android:layout_height="45dp"
             android:layout_marginTop="56dp"
-            android:text="Button"
+            android:background="@drawable/blue_button"
+            android:text="Create Account "
+            android:textColor="#1b4b5f"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/createAccPasswordET"
+            app:layout_constraintVertical_bias="0.329" />
 
-        <TextView
-            android:id="@+id/textView"
+        <EditText
+            android:id="@+id/createAccVerifyPasswordET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create Account"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            android:ems="10"
+            android:hint="Verify Password"
+            android:textColor="#1b4b5f"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/createAccountBtm"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/createAccPasswordET" />
+
+        <Button
+            android:id="@+id/backToLogIn"
+            android:layout_width="151dp"
+            android:layout_height="45dp"
+            android:background="@drawable/blue_button"
+            android:backgroundTint="#1b4b5f"
+            android:text="LogIn"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createAccountBtm"
+            app:layout_constraintVertical_bias="0.174" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102"
+            app:srcCompat="@drawable/workout_planner_logo" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -33,9 +33,9 @@ public class LogIn extends AppCompatActivity {
 ////
 //            User user = verifyLogin(username,password);
 //
-//            String use//
-//////            if(user == null ){r = "New User";
-
+//            String user = "New User";
+//
+//            if(user == null ){
 //                Toast toast = Toast.makeText(this, "Try Again",Toast.LENGTH_LONG);
 //                toast.show();
 //            }
