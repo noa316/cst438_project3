@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="16dp">
 
         <EditText
-            android:id="@+id/logInUsernameET"
+            android:id="@+id/createUsernameET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="240dp"
@@ -29,20 +29,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/createAccPasswordET"
+            android:id="@+id/createPasswordET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:ems="10"
             android:hint="Password"
-            android:textColor="#1b4b5f"
             android:inputType="textPassword"
+            android:textColor="#1b4b5f"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.646"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logInUsernameET" />
+            app:layout_constraintTop_toBottomOf="@+id/mUsernameET" />
 
         <Button
-            android:id="@+id/createAccountBtm"
+            android:id="@+id/createAccountBtn"
             android:layout_width="146dp"
             android:layout_height="45dp"
             android:layout_marginTop="56dp"
@@ -53,7 +54,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/createAccPasswordET"
+            app:layout_constraintTop_toBottomOf="@+id/mPasswordET"
             app:layout_constraintVertical_bias="0.329" />
 
         <EditText
@@ -64,10 +65,10 @@
             android:hint="Verify Password"
             android:textColor="#1b4b5f"
             android:inputType="textPassword"
-            app:layout_constraintBottom_toTopOf="@+id/createAccountBtm"
+            app:layout_constraintBottom_toTopOf="@+id/createAccountBtn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/createAccPasswordET" />
+            app:layout_constraintTop_toBottomOf="@+id/mPasswordET" />
 
         <Button
             android:id="@+id/backToLogIn"
@@ -80,7 +81,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/createAccountBtm"
+            app:layout_constraintTop_toBottomOf="@+id/createAccountBtn"
             app:layout_constraintVertical_bias="0.174" />
 
         <ImageView

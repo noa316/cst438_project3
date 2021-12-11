@@ -12,7 +12,7 @@ import java.util.List;
 public class AdminLandingPage extends AppCompatActivity {
 
     private Button viewUsersBtn;
-    private Button viewRecipesBtn;
+    private Button viewWorkoutsBtn;
     private Button logOutBtn;
 
 
@@ -22,14 +22,14 @@ public class AdminLandingPage extends AppCompatActivity {
         setContentView(R.layout.activity_admin_landing_page);
 
         viewUsersBtn = findViewById(R.id.ViewUsersBtn);
-        viewRecipesBtn = findViewById(R.id.ViewWorkoutsBtn);
+        viewWorkoutsBtn = findViewById(R.id.ViewWorkoutsBtn);
         logOutBtn = findViewById(R.id.adminLogoutBtn);
 
         viewUsersBtn.setOnClickListener(view -> {
             startActivity(AdminViewUsers.intentFactory(getApplicationContext()));
         });
 
-        viewRecipesBtn.setOnClickListener(view -> {
+        viewWorkoutsBtn.setOnClickListener(view -> {
 
         });
 

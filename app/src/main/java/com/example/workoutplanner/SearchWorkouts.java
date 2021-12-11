@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -56,5 +58,10 @@ public class SearchWorkouts extends AppCompatActivity {
             }
         });
 
+    }
+
+    public static Intent intentFactory(Context ctx) {
+        Intent intent = new Intent(ctx, SearchWorkouts.class);
+        return intent;
     }
 }

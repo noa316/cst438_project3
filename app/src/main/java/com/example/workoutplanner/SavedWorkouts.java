@@ -5,6 +5,8 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 public class SavedWorkouts extends AppCompatActivity {
@@ -21,5 +23,10 @@ public class SavedWorkouts extends AppCompatActivity {
         WorkoutsApi jsonPlaceHolderApi = retrofit.create(WorkoutsApi.class);
 
 //        Call<ApiResponse> call = WorkoutsApi.getWorkouts();
+    }
+
+    public static Intent intentFactory(Context ctx) {
+        Intent intent = new Intent(ctx, SavedWorkouts.class);
+        return intent;
     }
 }

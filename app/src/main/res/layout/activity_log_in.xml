@@ -9,36 +9,37 @@
 
 
     <EditText
-        android:id="@+id/logInUsernameET"
+        android:id="@+id/mUsernameET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="240dp"
         android:ems="10"
-        android:textColor="#1b4b5f"
         android:hint="UserName"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="#1b4b5f"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/createAccPasswordET"
+        android:id="@+id/mPasswordET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
         android:ems="10"
-        android:textColor="#1b4b5f"
         android:hint="Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColor="#1b4b5f"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logInUsernameET" />
+        app:layout_constraintTop_toBottomOf="@+id/mUsernameET"
+        app:layout_constraintVertical_bias="0.108" />
 
     <Button
-        android:id="@+id/createAccountBtn"
+        android:id="@+id/mLogInbtn"
         android:layout_width="131dp"
         android:layout_height="54dp"
         android:layout_marginTop="56dp"
@@ -47,10 +48,10 @@
         android:textColor="#1b4b5f"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createAccPasswordET"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/mPasswordET"
+        app:layout_constraintVertical_bias="0.015" />
 
     <Button
         android:id="@+id/mCreateAccount"
@@ -59,14 +60,14 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/blue_button"
         android:backgroundTint="#1b4b5f"
-        android:textColor="#ffffff"
         android:text="Create Account "
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createAccountBtn"
-        app:layout_constraintVertical_bias="0.017" />
+        app:layout_constraintTop_toBottomOf="@+id/mLogInbtn"
+        app:layout_constraintVertical_bias="0.012" />
 
     <ImageView
         android:id="@+id/imageView5"
